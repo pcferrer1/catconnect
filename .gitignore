@@ -1,3 +1,5 @@
 /venv
 venv
 test
+catconnect/cat.db
+catconnect/static/uploads

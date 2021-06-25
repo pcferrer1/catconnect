@@ -1,5 +1,9 @@
 $(document).ready( function () {
-    $('#myTable').DataTable();
+    $('#myTable').DataTable({
+        // scrollY:        '50vh',
+        // scrollCollapse: true,
+        // paging:         false
+    });
 
     // Get all the possible buttons for the delete cat button
     const btnDeleteCat = document.querySelectorAll('.btnDeleteCat');
