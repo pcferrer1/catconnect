@@ -198,7 +198,8 @@ def updatecat(id):
 @login_required
 def delete_cat():
     # delete a cat using its id
-    catid = request.form['catid']
+    catid = int(request.form['catid'])
+    print(type(catid))
     db.session.delete(Cats.query.get(catid))
     try: 
         flash('Deletion completed!', 'success')
