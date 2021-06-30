@@ -8,10 +8,6 @@
 	height: calc(100vh - 56px);
 }
 
-.page-heading--text {
-	font-family: 'Roboto', sans-serif;
-}
-
 .login-container,
 .register-container {
 	/* width: 20rem; */
