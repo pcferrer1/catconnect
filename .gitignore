@@ -2,3 +2,4 @@
 venv
 test
 cat_list.html
+/static/uploads/*
